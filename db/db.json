@@ -1,0 +1,712 @@
+{
+  "users": [
+    {
+      "email": "ledat72000@gmail.com",
+      "password": "$2a$10$3GW.6OiOwZxCIEgaBSyAf.mpd2EbOvurKNGm805Q/dkJ.yQnJrmim",
+      "name": "Dat Le",
+      "gender": "male",
+      "cart": [],
+      "role": "admin",
+      "createdAt": 1631621791932,
+      "updatedAt": 1631975418017,
+      "id": 1
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$BflBnHdPbDRiVxBAWaQ4e.8AOQur6wayAn7k4xfyE9sKMe6mIC7J.",
+      "name": "User",
+      "gender": "female",
+      "cart": [
+        {
+          "id": "836e3cff-5ed0-4abb-a820-e120e770c25f",
+          "productId": 49,
+          "image": "https://source.unsplash.com/random",
+          "name": "Sprite chanh",
+          "price": 20000,
+          "count": 1
+        }
+      ],
+      "role": "user",
+      "createdAt": 1631621896647,
+      "updatedAt": 1638331008541,
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "TRÁi CÂY"
+    },
+    {
+      "id": 2,
+      "name": "RAU CỦ QUẢ"
+    },
+    {
+      "name": "THỊT",
+      "id": 3
+    },
+    {
+      "name": "CÁC LOẠI HẠT",
+      "id": 4
+    },
+    {
+      "name": "CÁ VÀ HẢI SẢN",
+      "id": 5
+    },
+    {
+      "name": "NGŨ CỐC",
+      "id": 6
+    },
+    {
+      "name": "ĐỒ UỐNG",
+      "id": 7
+    },
+    {
+      "name": "BÁNH KẸO",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chuối",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 2,
+      "name": "Táo",
+      "price": 35000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 3,
+      "name": "Nho",
+      "price": 50000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 4,
+      "name": "Xoài",
+      "price": 25000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 5,
+      "name": "Nhãn",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 6,
+      "name": "Bưởi",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 7,
+      "name": "Nho",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 8,
+      "name": "Măng cụt",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 9,
+      "name": "Bơ",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 10,
+      "name": "Thanh Long",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 11,
+      "name": "Vải",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 12,
+      "name": "Chôm Chôm",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 1,
+      "unit": "/1kg"
+    },
+    {
+      "id": 13,
+      "name": "Rau muống",
+      "price": 15000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 2,
+      "unit": "/1kg"
+    },
+    {
+      "id": 14,
+      "name": "Mướp hương",
+      "price": 20000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 2,
+      "unit": "/1kg"
+    },
+    {
+      "id": 14,
+      "name": "Đậu đũa",
+      "price": 25000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 2,
+      "unit": "/1kg"
+    },
+    {
+      "id": 15,
+      "name": "Đậu bắp",
+      "price": 20000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 2,
+      "unit": "/1kg"
+    },
+    {
+      "id": 16,
+      "name": "Cải cúc",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 2,
+      "unit": "/1kg"
+    },
+    {
+      "id": 17,
+      "name": "Bí xanh",
+      "price": 30000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 2,
+      "unit": "/1kg"
+    },
+    {
+      "id": 18,
+      "name": "Thịt đầu heo",
+      "price": 450000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 19,
+      "name": "Bò viên gân",
+      "price": 250000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 20,
+      "name": "Cá ngừ",
+      "price": 60000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 5,
+      "unit": "/1kg"
+    },
+    {
+      "id": 21,
+      "name": "Cá nục",
+      "price": 70000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 5,
+      "unit": "/1kg"
+    },
+    {
+      "id": 22,
+      "name": "Cá đuối",
+      "price": 110000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 5,
+      "unit": " /1kg"
+    },
+    {
+      "id": 23,
+      "name": "Hạt điều",
+      "price": 90000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 4,
+      "unit": " /Hộp(200g)"
+    },
+    {
+      "id": 24,
+      "name": "Hạt dẻ",
+      "price": 80000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 4,
+      "unit": "/1kg"
+    },
+    {
+      "id": 25,
+      "name": "Hạt bí ngô",
+      "price": 50000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 4,
+      "unit": " /Hộp(200g)"
+    },
+    {
+      "id": 26,
+      "name": "Hạt sen",
+      "price": 60000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 4,
+      "unit": "/1kg"
+    },
+    {
+      "id": 27,
+      "name": "Yến mạch",
+      "price": 120000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 6,
+      "unit": "/Gói(600g)"
+    },
+    {
+      "id": 28,
+      "name": "Cốm Kashi 7 nguyên hạt",
+      "price": 150000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 6,
+      "unit": "/Gói(600g)"
+    },
+    {
+      "id": 29,
+      "name": "Thị bò vai",
+      "price": 800000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 30,
+      "name": "Thịt bò đùi",
+      "price": 750000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 31,
+      "name": "Cá chình",
+      "price": 120000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 5,
+      "unit": "/1kg"
+    },
+    {
+      "id": 32,
+      "name": "Nạm bò",
+      "price": 735000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 32,
+      "name": "Thịt heo vai",
+      "price": 475000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 33,
+      "name": "Thịt đùi heo",
+      "price": 440000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 34,
+      "name": "Tai heo",
+      "price": 275000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 35,
+      "name": "Chân gà",
+      "price": 190000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 36,
+      "name": "Cánh gà",
+      "price": 340000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 3,
+      "unit": "/1kg"
+    },
+    {
+      "id": 37,
+      "name": "Bia 333",
+      "price": 250000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 thùng(24 lon)"
+    },
+    {
+      "id": 38,
+      "name": "Bia tiger",
+      "price": 260000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 thùng(24 lon)"
+    },
+    {
+      "id": 39,
+      "name": "Bia Heineken",
+      "price": 270000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 thùng(24 lon)"
+    },
+    {
+      "id": 40,
+      "name": "Bò húc",
+      "price": 269000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 thùng(24 lon)"
+    },
+    {
+      "id": 41,
+      "name": "Bò húc",
+      "price": 75000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 lốc(6 lon)"
+    },
+    {
+      "id": 42,
+      "name": "Cà phê G7",
+      "price": 130000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 hộp(45 gói x 16g)"
+    },
+    {
+      "id": 43,
+      "name": "Nước cam",
+      "price": 20000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 chai lớn(1,5 lít)"
+    },
+    {
+      "id": 44,
+      "name": "Nước cam",
+      "price": 110000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 lốc(6 chai x 1.5 lít)"
+    },
+    {
+      "id": 45,
+      "name": "Coca Cola",
+      "price": 20000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 chai lớn(1,5 lít)"
+    },
+    {
+      "id": 46,
+      "name": "Coca Cola",
+      "price": 110000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 lốc(6 chai x 1.5 lít)"
+    },
+    {
+      "id": 47,
+      "name": "Pepsi",
+      "price": 20000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 chai lớn(1,5 lít)"
+    },
+    {
+      "id": 48,
+      "name": "Pepsi",
+      "price": 110000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 lốc(6 chai x 1.5 lít)"
+    },
+    {
+      "id": 49,
+      "name": "Sprite chanh",
+      "price": 20000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 chai lớn(1,5 lít)"
+    },
+    {
+      "id": 50,
+      "name": "Sprite chanh",
+      "price": 110000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 7,
+      "unit": "/1 lốc(6 chai x 1.5 lít)"
+    },
+    {
+      "id": 51,
+      "name": "Bánh Trứng ( hiệu TIPO )",
+      "price": 60000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 8,
+      "unit": "/1 hộp(15 x 12g)"
+    },
+    {
+      "id": 52,
+      "name": "Bánh đậu xanh Rồng Vàng",
+      "price": 55000,
+      "image": "https://source.unsplash.com/random",
+      "categoryId": 8,
+      "unit": "/1 hộp"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Chuối ko ngon như kỳ vong",
+      "rating": 3,
+      "userId": 1,
+      "productId": 1
+    }
+  ],
+  "orders": [
+    {
+      "userId": 1,
+      "name": "Dat Le",
+      "email": "ledat72000@gmail.com",
+      "phoneNumber": "0347567080",
+      "address": "Đà Nẵng",
+      "note": "hahahha",
+      "products": [
+        {
+          "id": "dcb9dca1-1453-47c7-9a82-8eb696c2fea6",
+          "productId": 18,
+          "image": "https://source.unsplash.com/random",
+          "name": "Thịt heo",
+          "price": 100000,
+          "count": 6
+        },
+        {
+          "id": "d1c5598f-ac06-4442-b000-6cefdb406127",
+          "productId": 12,
+          "image": "https://source.unsplash.com/random",
+          "name": "Chôm Chôm",
+          "price": 30000,
+          "count": 6
+        },
+        {
+          "id": "781c48ae-8fb7-410d-8f12-a9031e4122f2",
+          "productId": 22,
+          "image": "https://source.unsplash.com/random",
+          "name": "Cá đuối",
+          "price": 110000,
+          "count": 6
+        }
+      ],
+      "totalPrice": 1440000,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1631623629278,
+      "updatedAt": 1631623629278,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "name": "Dat Le",
+      "email": "ledat72000@gmail.com",
+      "phoneNumber": "0347567080",
+      "address": "Huế",
+      "products": [
+        {
+          "id": "ba9446a5-9045-4c15-8d04-e6ae3596a46e",
+          "productId": 14,
+          "image": "https://source.unsplash.com/random",
+          "name": "Mướp hương",
+          "price": 20000,
+          "count": 6
+        },
+        {
+          "id": "7f504984-c610-4e17-be42-c7ff50ea8076",
+          "productId": 20,
+          "image": "https://source.unsplash.com/random",
+          "name": "Cá ngừ",
+          "price": 60000,
+          "count": 7
+        }
+      ],
+      "totalPrice": 540000,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1631629549883,
+      "updatedAt": 1631629549883,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "name": "User",
+      "email": "user@gmail.com",
+      "phoneNumber": "123456789",
+      "address": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "products": [
+        {
+          "id": "41423b32-3fde-44af-8667-78962832f1fb",
+          "productId": 52,
+          "image": "https://source.unsplash.com/random",
+          "name": "Bánh đậu xanh Rồng Vàng",
+          "price": 55000,
+          "count": 1
+        },
+        {
+          "id": "c5e194c3-e71b-4df1-901b-83c1e50463bd",
+          "productId": 51,
+          "image": "https://source.unsplash.com/random",
+          "name": "Bánh Trứng ( hiệu TIPO )",
+          "price": 60000,
+          "count": 1
+        }
+      ],
+      "totalPrice": 115000,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1632043471885,
+      "updatedAt": 1632043471885,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "name": "User",
+      "email": "user@gmail.com",
+      "phoneNumber": "0347567080",
+      "address": "Đà Nẵng",
+      "note": "đóng gói cẩn thận\nákdksjahd\nádhasjdksad",
+      "products": [
+        {
+          "id": "c142ec8a-3cb8-4c75-8ad2-8fff49a1053e",
+          "productId": 51,
+          "image": "https://source.unsplash.com/random",
+          "name": "Bánh Trứng ( hiệu TIPO )",
+          "price": 60000,
+          "count": 1
+        }
+      ],
+      "totalPrice": 60000,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1632043686394,
+      "updatedAt": 1632043686394,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "name": "User",
+      "email": "user@gmail.com",
+      "phoneNumber": "0347567080",
+      "address": "Đà Nẵng",
+      "note": "đóng gói cẩn thận, giao hàng ngoài h hành chính",
+      "products": [
+        {
+          "id": "9d685adf-fe60-481b-9628-d1de6bb9dc96",
+          "productId": 51,
+          "image": "https://source.unsplash.com/random",
+          "name": "Bánh Trứng ( hiệu TIPO )",
+          "price": 60000,
+          "count": 1
+        },
+        {
+          "id": "83d103f8-ee19-4cf2-ab45-ef6745405f06",
+          "productId": 47,
+          "image": "https://source.unsplash.com/random",
+          "name": "Pepsi",
+          "price": 20000,
+          "count": 1
+        },
+        {
+          "id": "41db34ba-ea8f-4e6b-afed-939746293842",
+          "productId": 49,
+          "image": "https://source.unsplash.com/random",
+          "name": "Sprite chanh",
+          "price": 20000,
+          "count": 1
+        },
+        {
+          "id": "7e71ceca-1b7c-4890-8087-c93fc50463ec",
+          "productId": 45,
+          "image": "https://source.unsplash.com/random",
+          "name": "Coca Cola",
+          "price": 20000,
+          "count": 1
+        },
+        {
+          "id": "2b30ec8e-65a7-4d99-8c39-86d7b250743e",
+          "productId": 38,
+          "image": "https://source.unsplash.com/random",
+          "name": "Bia tiger",
+          "price": 260000,
+          "count": 1
+        },
+        {
+          "id": "48ed3732-aef1-4751-8942-d671b4adf556",
+          "productId": 30,
+          "image": "https://source.unsplash.com/random",
+          "name": "Thịt bò đùi",
+          "price": 750000,
+          "count": 1
+        },
+        {
+          "id": "7b72734b-63b6-4e31-878d-1d68742a6df4",
+          "productId": 28,
+          "image": "https://source.unsplash.com/random",
+          "name": "Cốm Kashi 7 nguyên hạt",
+          "price": 150000,
+          "count": 1
+        }
+      ],
+      "totalPrice": 1280000,
+      "checkoutInfo": "visa",
+      "status": "waiting",
+      "createdAt": 1632044334721,
+      "updatedAt": 1632044334722,
+      "id": 11
+    }
+  ]
+}
